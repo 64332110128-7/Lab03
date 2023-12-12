@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&family=Nunito:wght@600&family=Prompt:wght@100;200;300;400;600&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Homework03</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <!-- <h1>JobPasscard</้> -->
+            <img src="./jobpasscard-logo-nav.png" alt="">
+        </div>
+        <div class="menu">
+            <a href="#">ABOUT US</a>
+            <a href="#">PASSCARD</a>
+            <a href="#">PROFILE</a>
+        </div>
+        <div class="login">
+            <img src="./search.png" alt="">
+            <img src="./cart.png" alt="">
+            <a href="#">LOGIN</a>
+            <a href="#">SIGN UP</a>
+        </div>
+    </nav>
+    <hr>
+    <H1>My Cart</H1>
+    <main>
+        <div class="left">
+            <div class="docs">
+                <div class="bin">
+                    <img src="./bin.png" alt="">
+                </div>
+                <div class="dcard">
+                    <div class="dlogo">
+                        <img src="./Google_Docs_Logo_64px.png" alt="">
+                    </div>
+                    <p id="d">Google Docs</p>
+                    <p id="b">Used for business</p>
+                </div>
+                <div class="g">
+                    <p id="name">Google Docs</p>
+                    <form>
+                        <select id="LV" name="LV">
+                        <option value="1">LV 1-3</option>
+                        <option value="2">LV 2-3</option>
+                        <option value="3">LV 3-3</option>
+                        </select>
+                    </form>
+                    <p id="price">THB 150</p>
+                </div>
+            </div>
+            <div class="slides">
+                <div class="bin">
+                    <img src="./bin.png" alt="">
+                </div>
+                <div class="scard">
+                    <div class="slogo">
+                        <img src="./Google_Slides_Logo_64px.png" alt="">
+                    </div>
+                    <p id="d">Google Slides</p>
+                    <p id="b">Used for business</p>
+                </div>
+                <div class="g">
+                    <p id="name">Google Slides</p>
+                    <form>
+                        <select id="LV" name="LV">
+                        <option value="1">LV 1-4</option>
+                        <option value="2">LV 2-4</option>
+                        <option value="3">LV 3-4</option>
+                        <option value="4">LV 4-4</option>
+                        </select>
+                    </form>
+                    <p id="price">THB 150</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <p id="info">Order Info</p>
+            <div class="total">
+                <p>Subtotal</p>
+                <p>THB 300</p>
+            </div>
+            <div class="info">
+                <img src="./ticket.png" alt="">
+                <input type="text" id="code" name="code" placeholder="Promotion code">
+                <input type="submit" value="APPLY" class="submit1">
+            </div>
+            <div class="checkout">
+                <div class="payment">
+                    <p id="t">Total payment</p>
+                    <p id="price1">THB 300</p>
+                </div>
+                <input type="submit" value="LOG IN TO CHECKOUT" class="submit2">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
